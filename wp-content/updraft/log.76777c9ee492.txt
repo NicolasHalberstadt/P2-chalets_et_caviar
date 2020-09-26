@@ -1,0 +1,4 @@
+0000.000 (6) Opened log file at time: Fri, 25 Sep 2020 09:58:37 +0000 on http://localhost/wordpress
+0000.002 (6) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.29 WP: 5.5.1 PHP: 7.4.2 (apache2handler, Darwin MacBook-Pro-de-Margaux.local 19.6.0 Darwin Kernel Version 19.6.0: Thu Jun 18 20:49:00 PDT 2020; root:xnu-6153.141.1~1/RELEASE_X86_64 x86_64) MySQL: 5.7.26 WPLANG: fr_FR Server: Apache/2.2.34 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.4.2 mod_ssl/2.2.34 OpenSSL/1.0.2o DAV/2 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.24.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 45.5M | 4.5M) multisite: N openssl: OpenSSL 1.0.2o  27 Mar 2018 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.003 (6) Free space on disk containing Updraft's temporary directory: 6224.1 MB
+0000.004 (6) This backup task (76777c9ee492) is either complete or began over 2 days ago: ending (1601027917.6121, ) (existing jobdata keys: )

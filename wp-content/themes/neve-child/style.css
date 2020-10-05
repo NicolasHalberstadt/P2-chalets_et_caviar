@@ -31,7 +31,7 @@ ul#menu-1-5fc520e li a {
     font-family: Prata, sans-serif !important;
     text-transform: uppercase;
     justify-content: center;
-    color: #F6F0E8;
+    color: #F6F0E8!important;
     padding: 18px;
     border-radius: 5px;
     transition: 1s;

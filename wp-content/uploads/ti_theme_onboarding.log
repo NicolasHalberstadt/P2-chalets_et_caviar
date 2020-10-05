@@ -1,129 +1,25 @@
-[23/Sep/2020:16:44:14] (I): WordPress Instance Info:
-[23/Sep/2020:16:44:14] (I): Home URL : http://localhost/wordpress
-[23/Sep/2020:16:44:14] (I): Site URL : http://localhost/wordpress
-[23/Sep/2020:16:44:14] (I): WordPress Version : 5.5.1
-[23/Sep/2020:16:44:14] (I): Onboarding Version : 1.0.10
-[23/Sep/2020:16:44:14] (I): Multisite : No
-[23/Sep/2020:16:44:14] (I): Server Info : Apache/2.2.34 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.4.2 mod_ssl/2.2.34 OpenSSL/1.0.2o DAV/2 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.24.0
-[23/Sep/2020:16:44:14] (I): PHP Version : 7.4.2
-[23/Sep/2020:16:44:14] (I): HTTPS : No
-[23/Sep/2020:16:44:14] (I): PHP Max Execution Time : 30
-[23/Sep/2020:16:44:14] (I): PHP Max Input Vars : 1000
-[23/Sep/2020:16:44:14] (I): Max Upload Size : 8388608
-[23/Sep/2020:16:44:14] (I): Plugins:
-[23/Sep/2020:16:44:14] (I): [PLUGIN] Elementor : v3.0.10 (Elementor.com)
-[23/Sep/2020:16:44:14] (I): [PLUGIN] Templates Patterns Collection : v1.0.10 (ThemeIsle)
-[23/Sep/2020:16:44:14] (I): [PLUGIN] Orbit Fox Companion : v2.9.18 (Themeisle)
-[23/Sep/2020:16:44:14] (P): Saving remote XML
-[23/Sep/2020:16:44:14] (S): Saved remote XML at path /Applications/MAMP/htdocs/wordpress/wp-content/uploads/themeisle-demo-import.xml.
-[23/Sep/2020:16:44:14] (P): Starting content import...
-[23/Sep/2020:16:44:14] (S): Import started.
-[23/Sep/2020:16:44:14] (S): Parsing XML file.
-[23/Sep/2020:16:44:14] (P): Starting parsing file:/Applications/MAMP/htdocs/wordpress/wp-content/uploads/themeisle-demo-import.xml
-[23/Sep/2020:16:44:14] (P): Using WXR_Parser_SimpleXML...
-[23/Sep/2020:16:44:14] (S): Parsed XML
-[23/Sep/2020:16:44:14] (P): Processing categories...
-[23/Sep/2020:16:44:14] (S): Processed categories.
-[23/Sep/2020:16:44:14] (P): Processing tags...
-[23/Sep/2020:16:44:14] (S): No tags to process.
-[23/Sep/2020:16:44:14] (P): Processing terms...
-[23/Sep/2020:16:44:14] (S): Processed terms.
-[23/Sep/2020:16:44:14] (P): Processing posts...
-[23/Sep/2020:16:44:14] (P): Processing single menu item ' Focus '...
-[23/Sep/2020:16:44:14] (S): Processed single menu item.
-[23/Sep/2020:16:44:14] (P): Processing single menu item ' About '...
-[23/Sep/2020:16:44:14] (S): Processed single menu item.
-[23/Sep/2020:16:44:14] (P): Processing single menu item ' Team '...
-[23/Sep/2020:16:44:14] (S): Processed single menu item.
-[23/Sep/2020:16:44:14] (P): Processing single menu item ' Testimonials '...
-[23/Sep/2020:16:44:14] (S): Processed single menu item.
-[23/Sep/2020:16:44:14] (P): Processing single menu item ' Contact '...
-[23/Sep/2020:16:44:14] (S): Processed single menu item.
-[23/Sep/2020:16:44:14] (P): Processing single menu item ' '...
-[23/Sep/2020:16:44:14] (P): Processing attachment: https://s33834.pcdn.co/zelle/wp-content/uploads/sites/180/2019/02/zelle-expert1.jpg...
-[23/Sep/2020:16:44:14] (P): Fetching attachment from url: https://s33834.pcdn.co/zelle/wp-content/uploads/sites/180/2019/02/zelle-expert1.jpg...
-[23/Sep/2020:16:44:15] (S): Fetched remote attachment.
-[23/Sep/2020:16:44:15] (P): Inserting attachment...
-[23/Sep/2020:16:44:15] (S): Attachment inserted
-[23/Sep/2020:16:44:15] (S): Processed attachment.
-[23/Sep/2020:16:44:15] (P): Processing attachment: https://s33834.pcdn.co/zelle/wp-content/uploads/sites/180/2019/02/zelle-expert2.jpg...
-[23/Sep/2020:16:44:15] (P): Fetching attachment from url: https://s33834.pcdn.co/zelle/wp-content/uploads/sites/180/2019/02/zelle-expert2.jpg...
-[23/Sep/2020:16:44:16] (S): Fetched remote attachment.
-[23/Sep/2020:16:44:16] (P): Inserting attachment...
-[23/Sep/2020:16:44:16] (S): Attachment inserted
-[23/Sep/2020:16:44:16] (S): Processed attachment.
-[23/Sep/2020:16:44:16] (P): Processing attachment: https://s33834.pcdn.co/zelle/wp-content/uploads/sites/180/2019/02/zelle-expert3.jpg...
-[23/Sep/2020:16:44:16] (P): Fetching attachment from url: https://s33834.pcdn.co/zelle/wp-content/uploads/sites/180/2019/02/zelle-expert3.jpg...
-[23/Sep/2020:16:44:16] (S): Fetched remote attachment.
-[23/Sep/2020:16:44:16] (P): Inserting attachment...
-[23/Sep/2020:16:44:16] (S): Attachment inserted
-[23/Sep/2020:16:44:16] (S): Processed attachment.
-[23/Sep/2020:16:44:16] (P): Processing attachment: https://s33834.pcdn.co/zelle/wp-content/uploads/sites/180/2019/02/zelle-ny1-1.jpg...
-[23/Sep/2020:16:44:16] (P): Fetching attachment from url: https://s33834.pcdn.co/zelle/wp-content/uploads/sites/180/2019/02/zelle-ny1-1.jpg...
-[23/Sep/2020:16:44:17] (S): Fetched remote attachment.
-[23/Sep/2020:16:44:17] (P): Inserting attachment...
-[23/Sep/2020:16:44:17] (S): Attachment inserted
-[23/Sep/2020:16:44:17] (S): Processed attachment.
-[23/Sep/2020:16:44:17] (P): Processing attachment: https://s33834.pcdn.co/zelle/wp-content/uploads/sites/180/2019/02/zelle-safari1-1.jpg...
-[23/Sep/2020:16:44:17] (P): Fetching attachment from url: https://s33834.pcdn.co/zelle/wp-content/uploads/sites/180/2019/02/zelle-safari1-1.jpg...
-[23/Sep/2020:16:44:17] (S): Fetched remote attachment.
-[23/Sep/2020:16:44:17] (P): Inserting attachment...
-[23/Sep/2020:16:44:17] (S): Attachment inserted
-[23/Sep/2020:16:44:17] (S): Processed attachment.
-[23/Sep/2020:16:44:17] (P): Processing attachment: https://s33834.pcdn.co/zelle/wp-content/uploads/sites/180/2019/02/zelle-camper1-1.jpg...
-[23/Sep/2020:16:44:17] (P): Fetching attachment from url: https://s33834.pcdn.co/zelle/wp-content/uploads/sites/180/2019/02/zelle-camper1-1.jpg...
-[23/Sep/2020:16:44:18] (S): Fetched remote attachment.
-[23/Sep/2020:16:44:18] (P): Inserting attachment...
-[23/Sep/2020:16:44:18] (S): Attachment inserted
-[23/Sep/2020:16:44:18] (S): Processed attachment.
-[23/Sep/2020:16:44:18] (P): Processing attachment: https://s33834.pcdn.co/zelle/wp-content/uploads/sites/180/2019/02/zelle-asia1-1.jpg...
-[23/Sep/2020:16:44:18] (P): Fetching attachment from url: https://s33834.pcdn.co/zelle/wp-content/uploads/sites/180/2019/02/zelle-asia1-1.jpg...
-[23/Sep/2020:16:44:18] (S): Fetched remote attachment.
-[23/Sep/2020:16:44:18] (P): Inserting attachment...
-[23/Sep/2020:16:44:18] (S): Attachment inserted
-[23/Sep/2020:16:44:18] (S): Processed attachment.
-[23/Sep/2020:16:44:18] (P): Processing attachment: https://s33834.pcdn.co/zelle/wp-content/uploads/sites/180/2019/02/zelle-india1-1.jpg...
-[23/Sep/2020:16:44:18] (P): Fetching attachment from url: https://s33834.pcdn.co/zelle/wp-content/uploads/sites/180/2019/02/zelle-india1-1.jpg...
-[23/Sep/2020:16:44:19] (S): Fetched remote attachment.
-[23/Sep/2020:16:44:19] (P): Inserting attachment...
-[23/Sep/2020:16:44:19] (S): Attachment inserted
-[23/Sep/2020:16:44:19] (S): Processed attachment.
-[23/Sep/2020:16:44:19] (P): Processing attachment: https://s33834.pcdn.co/zelle/wp-content/uploads/sites/180/2019/02/zelle-cambodgia1-1.jpg...
-[23/Sep/2020:16:44:19] (P): Fetching attachment from url: https://s33834.pcdn.co/zelle/wp-content/uploads/sites/180/2019/02/zelle-cambodgia1-1.jpg...
-[23/Sep/2020:16:44:19] (S): Fetched remote attachment.
-[23/Sep/2020:16:44:19] (P): Inserting attachment...
-[23/Sep/2020:16:44:19] (S): Attachment inserted
-[23/Sep/2020:16:44:19] (S): Processed attachment.
-[23/Sep/2020:16:44:19] (P): Processing attachment: https://s33834.pcdn.co/zelle/wp-content/uploads/sites/180/2019/03/neve-zelle-hero-image-1.jpg...
-[23/Sep/2020:16:44:19] (P): Fetching attachment from url: https://s33834.pcdn.co/zelle/wp-content/uploads/sites/180/2019/03/neve-zelle-hero-image-1.jpg...
-[23/Sep/2020:16:44:20] (S): Fetched remote attachment.
-[23/Sep/2020:16:44:20] (P): Inserting attachment...
-[23/Sep/2020:16:44:20] (S): Attachment inserted
-[23/Sep/2020:16:44:20] (S): Processed attachment.
-[23/Sep/2020:16:44:20] (P): Inserting page: Zelle .
-[23/Sep/2020:16:44:20] (S): Done inserting page: Zelle .
-[23/Sep/2020:16:44:20] (P): Filtering elementor meta...
-[23/Sep/2020:16:44:20] (S): Filtered elementor meta.
-[23/Sep/2020:16:44:20] (P): Inserting page: Blog .
-[23/Sep/2020:16:44:20] (S): Done inserting page: Blog .
-[23/Sep/2020:16:44:20] (P): Inserting post: New York as low as 399,99€ .
-[23/Sep/2020:16:44:20] (S): Done inserting post: New York as low as 399,99€ .
-[23/Sep/2020:16:44:20] (P): Inserting post: Cambodgia as low as 799,90€ .
-[23/Sep/2020:16:44:20] (S): Done inserting post: Cambodgia as low as 799,90€ .
-[23/Sep/2020:16:44:20] (P): Inserting post: India by train as low as 549,99€ .
-[23/Sep/2020:16:44:20] (S): Done inserting post: India by train as low as 549,99€ .
-[23/Sep/2020:16:44:20] (P): Inserting post: Beautiful itinerary in Asia .
-[23/Sep/2020:16:44:20] (S): Done inserting post: Beautiful itinerary in Asia .
-[23/Sep/2020:16:44:20] (P): Inserting post: 3 circuits with a Camper Van .
-[23/Sep/2020:16:44:20] (S): Done inserting post: 3 circuits with a Camper Van .
-[23/Sep/2020:16:44:20] (P): Inserting post: The 3 Safaris you must experience .
-[23/Sep/2020:16:44:20] (S): Done inserting post: The 3 Safaris you must experience .
-[23/Sep/2020:16:44:20] (S): Processed posts.
-[23/Sep/2020:16:44:20] (P): Processing single menu item ' '...
-[23/Sep/2020:16:44:20] (S): Processed single menu item.
-[23/Sep/2020:16:44:20] (P): Cleaning up import with id ...
-[23/Sep/2020:16:44:20] (P): Done cleanup. Flushing cache...
-[23/Sep/2020:16:44:20] (P): Flushed cache. Removing temporary data..
-[23/Sep/2020:16:44:20] (S): Done importing
-[23/Sep/2020:16:44:20] (P): Busting elementor cache
-[23/Sep/2020:16:44:20] (S): Front page set up with id: 138.
+[05/Oct/2020:14:17:07] (I): WordPress Instance Info:
+[05/Oct/2020:14:17:07] (I): Home URL : http://localhost/wordpress
+[05/Oct/2020:14:17:07] (I): Site URL : http://localhost/wordpress
+[05/Oct/2020:14:17:07] (I): WordPress Version : 5.5.1
+[05/Oct/2020:14:17:07] (I): Onboarding Version : 1.0.10
+[05/Oct/2020:14:17:07] (I): Multisite : No
+[05/Oct/2020:14:17:07] (I): Server Info : Apache/2.2.34 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.4.2 mod_ssl/2.2.34 OpenSSL/1.0.2o DAV/2 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.24.0
+[05/Oct/2020:14:17:07] (I): PHP Version : 7.4.2
+[05/Oct/2020:14:17:07] (I): HTTPS : No
+[05/Oct/2020:14:17:07] (I): PHP Max Execution Time : 30
+[05/Oct/2020:14:17:07] (I): PHP Max Input Vars : 1000
+[05/Oct/2020:14:17:07] (I): Max Upload Size : 8388608
+[05/Oct/2020:14:17:07] (I): Plugins:
+[05/Oct/2020:14:17:07] (I): [PLUGIN] Akismet Anti-Spam : v4.1.6 (Automattic)
+[05/Oct/2020:14:17:07] (I): [PLUGIN] PublishPress Capabilities : v1.10 (PublishPress)
+[05/Oct/2020:14:17:07] (I): [PLUGIN] Elementor : v3.0.11 (Elementor.com)
+[05/Oct/2020:14:17:07] (I): [PLUGIN] Elementor - Header, Footer &amp; Blocks : v1.5.3 (Brainstorm Force, Nikhil Chavan)
+[05/Oct/2020:14:17:07] (I): [PLUGIN] Hello Dolly : v1.7.2 (Matt Mullenweg)
+[05/Oct/2020:14:17:07] (I): [PLUGIN] Templates Patterns Collection : v1.0.10 (ThemeIsle)
+[05/Oct/2020:14:17:07] (I): [PLUGIN] UpdraftPlus - Sauvegarde/Restauration : v1.16.29 (UpdraftPlus.Com, DavidAnderson)
+[05/Oct/2020:14:17:07] (I): [PLUGIN] WP Fastest Cache : v0.9.1.1 (Emre Vona)
+[05/Oct/2020:14:17:07] (I): [PLUGIN] WP Mail SMTP : v2.4.0 (WPForms)
+[05/Oct/2020:14:17:07] (I): [PLUGIN] WPCasa : v1.2.4 (WPSight)
+[05/Oct/2020:14:17:07] (I): [PLUGIN] WPForms Lite : v1.6.2.3 (WPForms)
+[05/Oct/2020:14:17:07] (I): [PLUGIN] WPS Hide Login : v1.5.6 (WPServeur, NicolasKulka, tabrisrp)

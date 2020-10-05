@@ -1,0 +1,59 @@
+/*
+Theme Name: Neve-child
+Template:   Neve
+Version:    1.0.0
+*/
+/* Global */
+a:hover {
+    color: #8C7F71 !important;
+}
+
+/* Home page */
+ul#menu-1-5fc520e {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+ul#menu-1-5fc520e li {
+    width: 170px;
+}
+
+ul#menu-1-5fc520e li a {
+    font-family: Prata, sans-serif !important;
+    text-transform: uppercase;
+    justify-content: center;
+    color: #F6F0E8;
+    padding: 18px;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+#menu-item-292>a {
+    background-color: #D8BA9B;
+}
+
+#menu-item-293>a {
+    background-color: #AD875F;
+}
+
+/* Hover home page button */
+#menu-item-292>a:hover {
+    background-color: #AD875F;
+    text-decoration: underline;
+}
+
+#menu-item-293>a:hover {
+    background-color: #D8BA9B;
+    text-decoration: underline;
+}
+
+.elementor-element-c36b617 a,
+.elementor-element-c36b617 a:hover,
+.elementor-element-c36b617 a:focus,
+.elementor-element-5a74496 a,
+.elementor-element-5a74496 a:hover,
+.elementor-element-5a74496 a:focus {
+    color: #8C7F71 !important;
+}

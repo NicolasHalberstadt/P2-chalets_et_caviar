@@ -37,6 +37,7 @@ global $listing; ?>
 			<?php wpsight_get_template( 'listing-single-location.php' ); ?>
 
 			<?php do_action( 'wpsight_listing_single_after', $listing->ID ); ?>
+			<!-- Right template -->
 
 		</div>
 		

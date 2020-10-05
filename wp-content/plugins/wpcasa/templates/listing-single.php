@@ -36,7 +36,7 @@ global $listing; ?>
 
 			<?php wpsight_get_template( 'listing-single-location.php' ); ?>
 
-			<?php wpsight_get_template( 'listing-single-agent.php' ); ?>
+			<?php // wpsight_get_template( 'listing-single-agent.php' ); ?>
 
 			<?php do_action( 'wpsight_listing_single_after', $listing->ID ); ?>
 

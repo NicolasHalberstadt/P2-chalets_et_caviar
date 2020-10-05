@@ -4,8 +4,15 @@ Template:   neve
 Version:    1.0.0
 */
 /* Global */
-a:hover {
+a {
     color: #8C7F71 !important;
+}
+
+a:hover,
+a:active,
+a:focus,
+li.current_page_item a {
+    color: #5a5249 !important;
 }
 
 /* Home page */

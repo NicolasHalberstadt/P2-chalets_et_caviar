@@ -579,3 +579,87 @@
 17674.958 (7) Resume backup (4853c42b8922, 7): finish run
 17674.961 (7) There were errors in the uploads, so the 'resume' event is remaining scheduled
 17674.965 (7) La sauvegarde ne s'est pas terminée; une relance de la procédure est prévue
+18052.205 (8) Opened log file at time: Tue, 06 Oct 2020 14:44:31 +0000 on http://localhost/wordpress
+18052.206 (8) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.29 WP: 5.5.1 PHP: 7.4.2 (apache2handler, Darwin MBP-de-Margaux 19.6.0 Darwin Kernel Version 19.6.0: Mon Aug 31 22:12:52 PDT 2020; root:xnu-6153.141.2~1/RELEASE_X86_64 x86_64) MySQL: 5.7.26 WPLANG: fr_FR Server: Apache/2.2.34 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.4.2 mod_ssl/2.2.34 OpenSSL/1.0.2o DAV/2 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.24.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 44.4M | 12.5M) multisite: N openssl: OpenSSL 1.0.2o  27 Mar 2018 mcrypt: N LANG:  ZipArchive::addFile: Y
+18052.208 (8) Free space on disk containing Updraft's temporary directory: 17472.1 MB
+18052.211 (8) Backup run: resumption=8, nonce=4853c42b8922, file_nonce=4853c42b8922 begun at=1601977419 (18052s ago), job type=backup, previous check-in=2.7s
+18052.215 (8) Time passed on previous resumptions: 0:321.3 1:71.3 2:67.3 3:63.3 4:4.8 5:? 6:3.9 7:2.7  (known: 7, max: 321)
+18052.216 (8) Based on the available data, we are bringing the resumption interval down to: 373 seconds
+18052.220 (8) Scheduling a resumption (9) after 373 seconds (1601995844) in case this run gets aborted
+18052.249 (8) Checking if we have a zip executable available
+18052.251 (8) Zip engine: found/will use a binary zip: /usr/bin/zip
+18052.252 (8) Creation of backups of directories: already finished
+18052.253 (8) Saving backup status to database (elements: 8)
+18052.262 (8) Database dump (WordPress DB): Creation was completed already
+18052.263 (8) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+18052.266 (8) backup_2020-10-06-1143_Chalets_et_caviar_4853c42b8922-plugins.zip: plugins: This file has already been successfully uploaded
+18052.267 (8) backup_2020-10-06-1143_Chalets_et_caviar_4853c42b8922-themes.zip: themes: This file has already been successfully uploaded
+18052.268 (8) backup_2020-10-06-1143_Chalets_et_caviar_4853c42b8922-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+18052.269 (8) backup_2020-10-06-1143_Chalets_et_caviar_4853c42b8922-others.zip: others: This file has already been successfully uploaded
+18052.270 (8) backup_2020-10-06-1143_Chalets_et_caviar_4853c42b8922-db.gz: db: This file has already been successfully uploaded
+18052.271 (8) Saving backup history. Total backup size: Unknown
+18052.275 (8) Requesting upload of the files that have not yet been successfully uploaded (1)
+18052.278 (8) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+18052.279 (8) Beginning dispatch of backup to remote (googledrive) (instance identifier s-e1a0b1bd3d4744e0ccabb055454b8c02)
+18053.496 (8) Google Drive: quota usage: used=61.2 MB, total=15360 MB, available=15298.8 MB
+18053.497 (8) Google Drive: backup_2020-10-06-1143_Chalets_et_caviar_4853c42b8922-uploads.zip: Attempting to upload to Google Drive (into folder id: 1eNqmGWtPOmQT0LotrvZULLU58Uvk12Yv)
+18053.605 (8) Google Drive: backup_2020-10-06-1143_Chalets_et_caviar_4853c42b8922-uploads.zip: upload already began; attempting to resume from byte 25952255
+18113.624 (8) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/updraftplus/includes/Google/IO/Curl.php)
+18113.625 (8) An error condition has occurred for the first time during this job
+18113.628 (8) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+18113.630 (8) Number of backup sets in history: 1; groups (db): 1
+18113.631 (8) Examining (for databases) backup set with group_id=0, nonce=4853c42b8922, datestamp=1601977419 (Oct 06 2020 09:43:39)
+18113.631 (8) This backup set is the backup set just made, so will not be deleted.
+18113.631 (8) Number of backup sets in history: 1; groups (files): 1
+18113.632 (8) Examining (for files) backup set with nonce=4853c42b8922, datestamp=1601977419 (Oct 06 2020 09:43:39)
+18113.632 (8) This backup set is the backup set just made, so will not be deleted.
+18113.633 (8) This backup set is the backup set just made, so will not be deleted.
+18113.633 (8) This backup set is the backup set just made, so will not be deleted.
+18113.633 (8) This backup set is the backup set just made, so will not be deleted.
+18113.633 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+18113.634 (8) Retain: saving new backup history (sets now: 1) and finishing retain operation
+18113.638 (8) Resume backup (4853c42b8922, 8): finish run
+18113.640 (8) There were errors in the uploads, so the 'resume' event is remaining scheduled
+18113.643 (8) La sauvegarde ne s'est pas terminée; une relance de la procédure est prévue
+18544.502 (9) Opened log file at time: Tue, 06 Oct 2020 14:52:43 +0000 on http://localhost/wordpress
+18544.504 (9) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.29 WP: 5.5.1 PHP: 7.4.2 (apache2handler, Darwin MBP-de-Margaux 19.6.0 Darwin Kernel Version 19.6.0: Mon Aug 31 22:12:52 PDT 2020; root:xnu-6153.141.2~1/RELEASE_X86_64 x86_64) MySQL: 5.7.26 WPLANG: fr_FR Server: Apache/2.2.34 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.4.2 mod_ssl/2.2.34 OpenSSL/1.0.2o DAV/2 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.24.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 44.4M | 12.5M) multisite: N openssl: OpenSSL 1.0.2o  27 Mar 2018 mcrypt: N LANG:  ZipArchive::addFile: Y
+18544.506 (9) Free space on disk containing Updraft's temporary directory: 17449.9 MB
+18544.511 (9) Backup run: resumption=9, nonce=4853c42b8922, file_nonce=4853c42b8922 begun at=1601977419 (18544s ago), job type=backup
+18544.514 (9) The current run is resumption number 9, and there was nothing useful done on the last run (last useful run: 7) - will not schedule a further attempt until we see something useful happening this time
+18544.518 (9) Scheduling a resumption (10) after 373 seconds (1601996336); but the job will then be aborted unless something happens this time
+18544.547 (9) Creation of backups of directories: already finished
+18544.549 (9) Saving backup status to database (elements: 8)
+18544.573 (9) Database dump (WordPress DB): Creation was completed already
+18544.575 (9) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+18544.578 (9) backup_2020-10-06-1143_Chalets_et_caviar_4853c42b8922-plugins.zip: plugins: This file has already been successfully uploaded
+18544.579 (9) backup_2020-10-06-1143_Chalets_et_caviar_4853c42b8922-themes.zip: themes: This file has already been successfully uploaded
+18544.580 (9) backup_2020-10-06-1143_Chalets_et_caviar_4853c42b8922-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+18544.581 (9) backup_2020-10-06-1143_Chalets_et_caviar_4853c42b8922-others.zip: others: This file has already been successfully uploaded
+18544.582 (9) backup_2020-10-06-1143_Chalets_et_caviar_4853c42b8922-db.gz: db: This file has already been successfully uploaded
+18544.583 (9) Saving backup history. Total backup size: Unknown
+18544.586 (9) Requesting upload of the files that have not yet been successfully uploaded (1)
+18544.590 (9) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+18544.591 (9) Beginning dispatch of backup to remote (googledrive) (instance identifier s-e1a0b1bd3d4744e0ccabb055454b8c02)
+18545.746 (9) Google Drive: quota usage: used=61.2 MB, total=15360 MB, available=15298.8 MB
+18545.749 (9) Google Drive: backup_2020-10-06-1143_Chalets_et_caviar_4853c42b8922-uploads.zip: Attempting to upload to Google Drive (into folder id: 1eNqmGWtPOmQT0LotrvZULLU58Uvk12Yv)
+18545.859 (9) Google Drive: backup_2020-10-06-1143_Chalets_et_caviar_4853c42b8922-uploads.zip: upload already began; attempting to resume from byte 29622271
+18605.904 (9) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/updraftplus/includes/Google/IO/Curl.php)
+18605.918 (9) An error condition has occurred for the first time during this job
+18605.924 (9) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+18605.925 (9) Number of backup sets in history: 1; groups (db): 1
+18605.926 (9) Examining (for databases) backup set with group_id=0, nonce=4853c42b8922, datestamp=1601977419 (Oct 06 2020 09:43:39)
+18605.928 (9) This backup set is the backup set just made, so will not be deleted.
+18605.928 (9) Number of backup sets in history: 1; groups (files): 1
+18605.929 (9) Examining (for files) backup set with nonce=4853c42b8922, datestamp=1601977419 (Oct 06 2020 09:43:39)
+18605.929 (9) This backup set is the backup set just made, so will not be deleted.
+18605.930 (9) This backup set is the backup set just made, so will not be deleted.
+18605.930 (9) This backup set is the backup set just made, so will not be deleted.
+18605.930 (9) This backup set is the backup set just made, so will not be deleted.
+18605.930 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+18605.931 (9) Retain: saving new backup history (sets now: 1) and finishing retain operation
+18605.935 (9) Resume backup (4853c42b8922, 9): finish run
+18605.938 (9) The resumption is being cancelled, as it was only scheduled to enable error reporting, which can be performed now
+18605.941 (9) Fetching RSS news feed
+18606.262 (9) Fetched RSS news feed; result is a: SimplePie
+18606.382 (9) Sending email ('Fichiers et base de données (Sauvegarde complète)') report (attachments: 1, size: 78.2 KB) to: halbe...
+18607.939 (9) La tentative de sauvegarde est terminée, apparemment sans succès

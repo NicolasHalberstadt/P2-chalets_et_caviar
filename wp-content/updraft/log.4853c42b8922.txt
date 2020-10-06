@@ -562,3 +562,20 @@
 17613.332 (7) Google Drive: backup_2020-10-06-1143_Chalets_et_caviar_4853c42b8922-uploads.zip: Attempting to upload to Google Drive (into folder id: 1eNqmGWtPOmQT0LotrvZULLU58Uvk12Yv)
 17613.440 (7) Google Drive: backup_2020-10-06-1143_Chalets_et_caviar_4853c42b8922-uploads.zip: upload already began; attempting to resume from byte 22282239
 17614.921 (7) Googledrive chunked upload: 28.4 % uploaded (23330816)
+17674.933 (7) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: /Applications/MAMP/htdocs/wordpress/wp-content/plugins/updraftplus/includes/Google/IO/Curl.php)
+17674.941 (7) An error condition has occurred for the first time during this job
+17674.946 (7) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+17674.947 (7) Number of backup sets in history: 1; groups (db): 1
+17674.949 (7) Examining (for databases) backup set with group_id=0, nonce=4853c42b8922, datestamp=1601977419 (Oct 06 2020 09:43:39)
+17674.950 (7) This backup set is the backup set just made, so will not be deleted.
+17674.950 (7) Number of backup sets in history: 1; groups (files): 1
+17674.951 (7) Examining (for files) backup set with nonce=4853c42b8922, datestamp=1601977419 (Oct 06 2020 09:43:39)
+17674.951 (7) This backup set is the backup set just made, so will not be deleted.
+17674.952 (7) This backup set is the backup set just made, so will not be deleted.
+17674.952 (7) This backup set is the backup set just made, so will not be deleted.
+17674.952 (7) This backup set is the backup set just made, so will not be deleted.
+17674.952 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+17674.953 (7) Retain: saving new backup history (sets now: 1) and finishing retain operation
+17674.958 (7) Resume backup (4853c42b8922, 7): finish run
+17674.961 (7) There were errors in the uploads, so the 'resume' event is remaining scheduled
+17674.965 (7) La sauvegarde ne s'est pas terminée; une relance de la procédure est prévue

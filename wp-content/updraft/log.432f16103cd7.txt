@@ -302,3 +302,27 @@
 17396.899 (6) Resume backup (432f16103cd7, 6): finish run
 17396.901 (6) There were errors in the uploads, so the 'resume' event is remaining scheduled
 17396.904 (6) La sauvegarde ne s'est pas terminée; une relance de la procédure est prévue
+17732.361 (7) Opened log file at time: Tue, 06 Oct 2020 14:39:11 +0000 on http://localhost/wordpress
+17732.363 (7) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.29 WP: 5.5.1 PHP: 7.4.2 (apache2handler, Darwin MBP-de-Margaux 19.6.0 Darwin Kernel Version 19.6.0: Mon Aug 31 22:12:52 PDT 2020; root:xnu-6153.141.2~1/RELEASE_X86_64 x86_64) MySQL: 5.7.26 WPLANG: fr_FR Server: Apache/2.2.34 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.4.2 mod_ssl/2.2.34 OpenSSL/1.0.2o DAV/2 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.24.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 44.2M | 4.5M) multisite: N openssl: OpenSSL 1.0.2o  27 Mar 2018 mcrypt: N LANG:  ZipArchive::addFile: Y
+17732.364 (7) Free space on disk containing Updraft's temporary directory: 17466.8 MB
+17732.367 (7) Backup run: resumption=7, nonce=432f16103cd7, file_nonce=432f16103cd7 begun at=1601977419 (17732s ago), job type=backup, previous check-in=3.7s
+17732.371 (7) Scheduling a resumption (8) after 398 seconds (1601995549) in case this run gets aborted
+17732.410 (7) Checking if we have a zip executable available
+17732.412 (7) Zip engine: found/will use a binary zip: /usr/bin/zip
+17732.413 (7) Creation of backups of directories: already finished
+17732.414 (7) Saving backup status to database (elements: 8)
+17732.437 (7) Database dump (WordPress DB): Creation was completed already
+17732.438 (7) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+17732.442 (7) backup_2020-10-06-1143_Chalets_et_caviar_4853c42b8922-plugins.zip: plugins: This file has already been successfully uploaded
+17732.443 (7) backup_2020-10-06-1143_Chalets_et_caviar_4853c42b8922-themes.zip: themes: This file has already been successfully uploaded
+17732.444 (7) backup_2020-10-06-1143_Chalets_et_caviar_4853c42b8922-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+17732.445 (7) backup_2020-10-06-1143_Chalets_et_caviar_4853c42b8922-others.zip: others: This file has already been successfully uploaded
+17732.446 (7) backup_2020-10-06-1143_Chalets_et_caviar_432f16103cd7-db.gz: db: This file is not ours to upload and has been/will be handled by another job.
+17732.447 (7) Saving backup history. Total backup size: Unknown
+17732.450 (7) Requesting upload of the files that have not yet been successfully uploaded (1)
+17732.453 (7) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+17732.454 (7) Beginning dispatch of backup to remote (googledrive) (instance identifier s-e1a0b1bd3d4744e0ccabb055454b8c02)
+17733.834 (7) Google Drive: quota usage: used=61.2 MB, total=15360 MB, available=15298.8 MB
+17733.836 (7) Google Drive: backup_2020-10-06-1143_Chalets_et_caviar_4853c42b8922-uploads.zip: Attempting to upload to Google Drive (into folder id: 1eNqmGWtPOmQT0LotrvZULLU58Uvk12Yv)
+17733.983 (7) Google Drive: backup_2020-10-06-1143_Chalets_et_caviar_4853c42b8922-uploads.zip: upload already began; attempting to resume from byte 24117247
+17735.279 (7) Googledrive chunked upload: 30.6 % uploaded (25165824)
